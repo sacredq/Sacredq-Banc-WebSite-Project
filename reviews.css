@@ -1,0 +1,103 @@
+html, body{
+    margin: 0; padding: 0; min-height: 100%; 
+    width: 100%; 
+    
+}
+
+body{
+    background: linear-gradient(to right, #304352, #d7d2cc);
+}
+
+.top_bar{
+    width: 100%;
+    background-color: rgb(36, 36, 36); height: 10%;
+    
+}
+
+.nav{
+    display: flex; justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    padding: 0 135px; 
+
+}
+
+.nav_list{
+    display: flex; gap: 40px;
+}
+
+.nav a{
+    text-decoration: none; color: white;
+    font-size: 26px; font-weight: bold;
+}
+
+.nav a:hover{
+    color: black; width: 100px; 
+    height: 45px; background-color: white; border-radius: 5px;
+    align-items: center; justify-content: center; display: flex;
+}
+
+h1{
+    font-size: 26px; color: white; cursor: pointer;
+}
+
+.Top_Text{
+    text-align: center; font-size: 24px; margin-top: 60px;
+}
+
+.display_box{
+    display: flex; align-items: center; 
+    justify-content: center; padding: 50px 0;      
+}
+
+.container_cont{    
+    display: flex;
+    width: 60%; background-color: white; border-radius: 6px;
+    height: auto; color: black;
+}
+
+.Data{
+    padding-left: 100px; position: relative; 
+    position: flex; align-items: center;
+}
+
+.line{
+    width: 1px; background-color: grey; 
+    margin: 40px 40px;
+}
+
+.opt{
+    color: black; font-size: 22px; 
+}
+
+.opacity{
+    font-weight: 100; opacity: 0.7;
+}
+
+
+.fields{
+    display: flex; flex-direction: column;
+}
+
+.Send{
+    color: purple; font-size: 24px;
+}
+
+.bt1{
+    background: #3e2093; color: white;
+    border-radius: 6px; border: none;
+    cursor: pointer; width: 85px; height: 30px; margin-bottom: 20px;
+}
+
+input{
+    border-radius: 6px; background: #F0F1F8; 
+    width: 95%; margin-bottom: 20px; align-items: center;
+    color: #fff;  font-size: 18px; border: none;
+    height: 52px;
+}
+
+textarea{
+    margin-bottom: 15px;
+    border-radius: 6px; background: #F0F1F8; width: 95%;
+    height: 80px;
+}

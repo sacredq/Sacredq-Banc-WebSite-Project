@@ -1,0 +1,90 @@
+
+.setcolor{
+    background-color: rgb(11, 95, 190);
+    color: black;
+    margin-top: 120px;
+}
+
+
+.display_box{
+    background-color: white;
+    width: 27%; min-height: 360px;
+    margin-left: auto; margin-right: auto;
+    border-radius: 10px;
+}
+
+.Header{
+    margin: 0;
+    padding-top: 16px;
+    margin-left: 25px;
+}
+
+
+.container{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    display: flex; align-items: center; gap: 2px;
+}
+
+.field input{
+    flex: 1;
+    outline: none;
+    height: 50px; width: 100%;
+    font-size: 18px;
+    border-left: none; border-top: none; border-right: none;
+    border-bottom: 2px solid  rgb(3, 99, 189);
+    width: 90%;
+}
+
+.checkbox1 {
+    display: flex;
+    align-items: center;           
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+.checkbox1 label {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.checkbox1 a {
+    text-align: right;
+    margin-right: 22px;
+}
+
+.checkbox1 input{
+    accent-color: rgb(231, 231, 23)
+}
+
+.button{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.button button{
+    background-color: rgb(11, 95, 190);
+    color: white; border-radius: 10px; border: none;
+    width: 100%;
+    min-height: 50px;
+    font-size: 22px;
+    cursor: pointer; 
+}
+
+#end{
+    text-align: center;
+}
+
+a{
+    color: rgb(11, 95, 190);
+}
+
+.field span {
+    font-size: 28px; 
+    color: black;
+}

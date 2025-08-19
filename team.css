@@ -1,0 +1,126 @@
+html, body{
+    margin: 0; padding: 0; min-height: 100%; color: black;
+    width: 100%; 
+    overflow-x: hidden;
+}
+
+body{
+    background: linear-gradient(to right, #0A0A2A, #1b1b1b);
+}
+
+h1{
+    color: white; 
+}
+
+h2{
+    color: white;
+}
+
+.top_bar{
+    width: 100%;
+    background-color: rgb(36, 36, 36); height: 10%;
+    
+}
+
+.nav{
+    display: flex; justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    padding: 0 135px; 
+
+}
+
+.nav_list{
+    display: flex; gap: 40px;
+}
+
+.nav a{
+    text-decoration: none; color: white;
+    font-size: 26px; font-weight: bold;
+}
+
+.nav a:hover{
+    color: black; width: 100px; 
+    height: 45px; background-color: white; border-radius: 5px;
+    align-items: center; justify-content: center; display: flex;
+}
+
+.Top_text{
+    margin-top: 90px; font-size: 18px; font-weight: bold;
+}
+
+#sacredq123{
+    font-size: 26px; color: white; cursor: pointer;
+}
+
+
+.display_box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto; margin-right: auto;
+    max-width: 370px; width: 100%; 
+    min-height: 400px;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-top: 90px;
+    background: linear-gradient(to bottom, rgb(32, 32, 32) 0% 45%, white 45% 100%);
+}
+
+.display_box2:hover{
+    transform: scale(1.1);
+    transition: 0.6; cursor: pointer;
+}
+
+.Info{
+    font-size: 25px; text-align: center; 
+}
+
+.Name{
+    font-weight: bold; font-size: 30px; text-align: center; margin-bottom: -15px;
+}
+
+.php .Sacredq{
+    height: auto; width: 180px;
+    border-radius: 50%;
+    border: 5px solid rgb(37, 36, 36);
+    background-color: rgb(32, 32, 32);
+}
+
+
+.employes{
+    margin-top: 140px;
+    display: flex ; justify-content: space-between; align-items: flex-start;
+    
+}
+
+.Box{
+    display: flex; align-items: center; justify-content: center;
+    flex-direction: column;
+    width: 370px; min-height: 400px; background-color: white;
+    border-radius: 24px; background-color: #fff;
+    background: linear-gradient(to bottom, rgb(32, 32, 32) 0% 45%, white 45% 100%);
+}
+
+.Box:hover{
+    transform: scale(1.1);
+    transition: 0.6; cursor: pointer;
+}
+
+.Box_php{
+    display: flex; justify-content: center;
+    height: auto; width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(37, 36, 36);
+    background-color: rgb(32, 32, 32); 
+}
+
+
+.icons{
+    margin-top: 15px; display: flex;
+}
+
+.Top_text{
+    text-align: center; 
+}
+
